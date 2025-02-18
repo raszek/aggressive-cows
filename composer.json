@@ -1,0 +1,19 @@
+{
+    "name": "raszek/tasks",
+    "require": {
+        "php": "^8.3",
+        "phpunit/phpunit": "^11.5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maciej Raszkiewicz",
+            "email": "raszekster@gmail.com"
+        }
+    ]
+}
